@@ -1,4 +1,3 @@
-cd "C:\Users\sebas\Documents\Documents\Harvard Sociology\Liberal Law and Order"
 import delimited "Arrests.csv", clear
 save Arrests.dta
 gen arrests_black_rate =  arrests_black / population_black 
