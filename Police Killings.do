@@ -1,6 +1,5 @@
-cd "C:\Users\sebas\Documents\Documents\Harvard Sociology\Liberal Law and Order"
-import delimited "Police Killing Rate by Race for Stata.csv", clear
-save Police_Killings_Race.dta
+import delimited "Police Killings.csv", clear
+
 gen bw_disparity_policekilling = black / white 
 gen Decade=. 
 replace Decade = 1 if year == "1980s"
