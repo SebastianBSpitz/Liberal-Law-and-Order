@@ -11,4 +11,4 @@ Execution data are from the Death Penalty Information Center, available at https
 
 Arrest data are from the Uniform Crime Reports, available at https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/arrest. 
 
-Population data by race are from the Centers for Disease Control, available at 
+Population data by race are from the Centers for Disease Control. Specific information on where to access each data point is available in the spreadsheet. 
