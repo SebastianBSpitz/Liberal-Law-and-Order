@@ -5,7 +5,7 @@ Sources for these data are as follows:
 Police killing rates are from GBD 2019 Police Violence US Subnational Collaborators, Fatal Police Violence by Race and State in the USA, 1980–2019: A Network Meta-Regression, 10307 LANCET, 1239 (2019).
 Police killing rates are age-adjusted.
 
-Data on prisoners are from National Prisoners Statistics, available https://www.icpsr.umich.edu/web/NACJD/studies/38871/summary. 
+Data on prisoners are from National Prisoner Statistics, [United States], 1978-2022 (ICPSR 38871), available at https://www.icpsr.umich.edu/web/NACJD/studies/38871/summary. I am not able to host the dataset here, but it is readily downloadable. 
 
 Execution data are from the Death Penalty Information Center, available at https://deathpenaltyinfo.org/database/executions. 
 
