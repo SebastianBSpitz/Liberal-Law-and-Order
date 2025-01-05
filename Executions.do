@@ -195,7 +195,7 @@ drop white
 *frames save executions_race, frames (default black white executions_race)
 frame create population
 frame change population
-import delimited "Population_Race.csv", clear
+import delimited "Population.csv", clear
 frame change executions_race 
 frlink 1:1 year, frame(population)
 frget white_population, from (population)
@@ -204,7 +204,7 @@ frget black_population, from (population)
 gen execution_rate_b = (executions_black / black_population)*100000
 gen execution_rate_w = (executions_white / white_population) *100000
 gen execution_disparity = execution_rate_b / execution_rate_w 
-scatter execution_disparity  year 
+*scatter execution_disparity  year 
 gen yeargroup5=. 
 replace yeargroup5 = 1 if year >= 1985 & year < 1990 
 replace yeargroup5 = 2 if year >= 1990 & year < 1995 
